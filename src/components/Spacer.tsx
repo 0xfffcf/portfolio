@@ -1,5 +1,5 @@
-const Spacer = ({ height, width }: { height: string; width: string }) => {
-  return <div style={{ height: height, width: width }}></div>;
+const Spacer: React.FC<{ height: string }> = ({ height }) => {
+  return <div style={{ height: height }}></div>;
 };
 
 export default Spacer;
