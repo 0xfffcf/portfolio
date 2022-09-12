@@ -19,7 +19,7 @@ const Navbar = () => {
 
   return (
     <motion.div
-      className='flex sm:w-full lg:w-6/12 items-center m-auto font-Karla text-sm md:text-base'
+      className='flex sm:w-full lg:w-6/12 items-center m-auto text-sm md:text-base'
       variants={fadeIn}
       initial='initial'
       animate='animate'
