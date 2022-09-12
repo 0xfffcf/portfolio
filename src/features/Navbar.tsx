@@ -19,12 +19,12 @@ const Navbar = () => {
 
   return (
     <motion.div
-      className='flex w-6/12 items-center m-auto'
+      className='flex sm:w-full lg:w-6/12 items-center m-auto font-Karla text-sm md:text-base'
       variants={fadeIn}
       initial='initial'
       animate='animate'
     >
-      <div className='p-[2px] h-[2.9rem] w-12 flex items-center rounded-full bg-gradient-to-tr from-pink-700 to-purple-700'>
+      <div className='p-[2px] lg:h-[2.9rem] md:h-[2.7rem] w-12 lg:ml-0 ml-8 flex items-center rounded-full bg-gradient-to-tr from-pink-700 to-purple-700'>
         <div className='p-[2px] dark:p-[2.5px] bg-white dark:bg-zinc-900 rounded-full'>
           <img
             className='rounded-full h-inherit w-inherit'
@@ -33,7 +33,7 @@ const Navbar = () => {
         </div>
       </div>
 
-      <div className='flex justify-end w-full gap-6'>
+      <div className='flex justify-end w-full gap-6 lg:mr-0 mr-5'>
         <a href='#home'>Home</a>
         <a href='#projects'>Projects</a>
         <a href='#about'>About</a>
