@@ -17,7 +17,7 @@ const Home: NextPage = () => {
         <title>0xfffcf | Home page</title>
       </Head>
       <div className='w-full h-screen bg-white text-zinc-900 dark:bg-zinc-900 dark:text-white'>
-        <Spacer height='1em' width='100vw' />
+        <Spacer height='1.2rem' width='100vw' />
         <Navbar />
       </div>
     </>
