@@ -27,8 +27,9 @@ const Navbar = () => {
       <div className='p-[2px] lg:h-[2.9rem] md:h-[2.7rem] w-12 lg:ml-0 ml-8 flex items-center rounded-full bg-gradient-to-tr from-pink-700 to-purple-700'>
         <div className='p-[2px] dark:p-[2.5px] bg-white dark:bg-zinc-900 rounded-full'>
           <img
-            className='rounded-full h-inherit w-inherit'
+            className='rounded-full h-inherit w-inherit cursor-pointer'
             src='https://avatars.githubusercontent.com/u/101296800?v=4'
+            onClick={() => (location.href = 'https://github.com/0xfffcf')}
           />
         </div>
       </div>
