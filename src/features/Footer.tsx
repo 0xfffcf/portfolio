@@ -16,7 +16,7 @@ const Footer = () => {
 
       <div className='flex md:w-[41rem] w-[20rem]'>
         <p className='block md:text-sm text-xs dark:opacity-50 font-light mt-1'>
-          Built with Next.js, Tailwind and Aws
+          Built with Next.js, Tailwind and Vercel
         </p>
       </div>
     </div>
