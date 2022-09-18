@@ -3,6 +3,7 @@ import Navbar from '@/features/Navbar';
 import NavBar from '@/features/Navbar';
 import { motion } from 'framer-motion';
 import { useEffect, useState } from 'react';
+import Spacer from './Spacer';
 
 const Layout = ({ children }: any) => {
   const [theme, setTheme] = useState('');
@@ -31,7 +32,8 @@ const Layout = ({ children }: any) => {
         <motion.div variants={fadeIn}>
           <Navbar themeType={theme} />
         </motion.div>
-        <div className='w-full h-[2px] shadow-sm'></div>
+        <div className='w-full h-[2px] shadow-sm' />
+        <Spacer height='3rem' />
         {children}
       </motion.div>
     </>
