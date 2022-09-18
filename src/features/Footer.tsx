@@ -1,5 +1,4 @@
-import Spacer from '@/components/Spacer';
-import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
+import { FaGithub } from 'react-icons/fa';
 import { HiMail } from 'react-icons/hi';
 
 const Footer = () => {
