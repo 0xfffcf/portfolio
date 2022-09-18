@@ -7,7 +7,7 @@ const Logo = () => {
       className='flex w-full justify-center text-center'
       variants={floating}
     >
-      <div className='blur-xl absolute w-[32rem] h-20 mt-5 bg-gradient-to-tr from-pink-700 to-purple-700 opacity-10 rounded-full' />
+      <div className='blur-xl absolute md:w-[32rem] w-[20rem] md:h-20 h-14 md:mt-5 mt-2 bg-gradient-to-tr from-pink-700 to-purple-700 opacity-10 rounded-full' />
       <h1 className='md:text-[5rem] text-[3rem] font-extrabold w-[30rem] text-transparent bg-clip-text bg-gradient-to-tr from-pink-700 to-purple-700'>
         Hello World
       </h1>
