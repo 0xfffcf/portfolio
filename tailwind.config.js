@@ -8,6 +8,10 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        'lg-black': '#141416',
+        'md-black': '#1f1f22',
+      },
       fontFamily: {
         Karla: ['Karla', 'sans-serif'],
       },
