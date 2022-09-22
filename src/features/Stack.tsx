@@ -9,7 +9,7 @@ const Stack = () => {
           My Weapons Of Choice
         </h1>
 
-        <Spacer height='0.6rem' />
+        <Spacer height='0.5rem' />
 
         <div className='flex lg:h-24 md:w-[38rem] p-2 rounded-lg bg-zinc-100 dark:bg-md-black'>
           <p className='lg:text-xl md:text-lg text-sm font-extralight'>
