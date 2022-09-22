@@ -33,7 +33,7 @@ const Layout = ({ children }: any) => {
           <Navbar themeType={theme} />
         </motion.div>
         <div className='w-full h-[2px] shadow-sm' />
-        <Spacer height='3rem' />
+        <Spacer height='2rem' />
         {children}
       </motion.div>
     </>

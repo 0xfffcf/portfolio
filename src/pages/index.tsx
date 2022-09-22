@@ -1,26 +1,53 @@
+import { dropTop, slideLeft } from '@/animations/variants';
 import Spacer from '@/components/Spacer';
-import Navbar from '@/features/Navbar';
-import type { NextPage } from 'next';
-import Head from 'next/head';
-import { useEffect, useState } from 'react';
+import Footer from '@/features/Footer';
+import Introduction from '@/features/Introduction';
+import Logo from '@/features/Logo';
+import Stack from '@/features/Stack';
 
-import { IoMoon, IoSunny } from 'react-icons/io5';
+import type { NextPage } from 'next';
+import { motion } from 'framer-motion';
+
+import Head from 'next/head';
+import Extra from '@/features/Extra';
 
 const Home: NextPage = () => {
-  useEffect(() => {
-    document.documentElement.classList.add('dark');
-  }, []);
-
   return (
-    <>
+    <div className='font-Karla'>
       <Head>
         <title>0xfffcf | Home page</title>
       </Head>
-      <div className='w-full h-screen bg-white text-zinc-900 dark:bg-zinc-900 dark:text-white'>
-        <Spacer height='1.2rem' width='100vw' />
-        <Navbar />
+
+      <div>
+        <motion.div variants={dropTop}>
+          <Logo />
+        </motion.div>
+
+        <Spacer height='3rem' />
+
+        <motion.div variants={slideLeft}>
+          <Introduction />
+        </motion.div>
+
+        <Spacer height='3rem' />
+
+        <motion.div variants={slideLeft}>
+          <Stack />
+        </motion.div>
+
+        <Spacer height='2rem' />
+
+        <motion.div variants={slideLeft}>
+          <Extra />
+        </motion.div>
+
+        <Spacer height='3rem' />
+
+        <Footer />
+
+        <Spacer height='0.5rem' />
       </div>
-    </>
+    </div>
   );
 };
 
