@@ -24,7 +24,7 @@ const Layout = ({ children }: any) => {
   return (
     <>
       <motion.div
-        className='w-full h-screen bg-zinc-50 text-zinc-900 dark:bg-zinc-900 dark:text-neutral-200 font-Karla'
+        className='w-screen h-screen bg-zinc-50 text-zinc-900 dark:bg-zinc-900 dark:text-neutral-200 font-Karla'
         variants={staggerContainer}
         initial='initial'
         animate='animate'
