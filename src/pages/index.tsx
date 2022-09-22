@@ -44,8 +44,6 @@ const Home: NextPage = () => {
         <Spacer height='3rem' />
 
         <Footer />
-
-        <Spacer height='0.5rem' />
       </div>
     </div>
   );
