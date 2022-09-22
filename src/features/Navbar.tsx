@@ -35,7 +35,6 @@ const Navbar = ({ themeType }: { themeType: string }) => {
       <div className='flex justify-end w-full gap-6 lg:mr-0 mr-5'>
         <a href='/'>Home</a>
         <a href='/projects'>Projects</a>
-        <a href='#about'>About</a>
 
         <div
           className='white dark:dark:bg-zinc-900 relative top-[0.3rem] cursor-pointer'
