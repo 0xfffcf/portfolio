@@ -16,6 +16,16 @@ const Home: NextPage = () => {
     <div className='font-Karla'>
       <Head>
         <title>0xfffcf | Home page</title>
+
+        <meta
+          name='description'
+          content='Hi, I am 0xfffcf a web developer. I am currenlty working with Angular, NextJs and more!'
+        />
+        <meta
+          name='keywords'
+          content='portfolio, web designer, web developer, fullstack'
+        />
+        <meta name='author' content='0xfffcf' />
       </Head>
 
       <div>
