@@ -3,7 +3,7 @@ import { HiMail } from 'react-icons/hi';
 
 const Footer = () => {
   return (
-    <div className='flex m-auto flex-col items-center'>
+    <div className='flex m-auto flex-col items-center w-full absolute h-12 bottom-1'>
       <div className='flex flex-row ml-3 md:w-[38rem] w-[20rem] gap-2 items-center'>
         <a href='https://github.com/0xfffcf'>
           <FaGithub size={20} className='cursor-pointer' />
