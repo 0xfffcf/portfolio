@@ -12,7 +12,7 @@ const Projects: NextPage = () => {
           className='flex w-full justify-center text-center'
           variants={floating}
         >
-          <div className='blur-xl absolute md:w-[40rem] w-[23rem] md:h-20 h-14 md:mt-5 mt-[0.5rem] bg-gradient-to-tr from-pink-700 to-purple-700 opacity-10 rounded-full' />
+          <div className='blur-xl absolute md:w-[40rem] w-[23rem] md:h-20 h-14 md:mt-5 mt-[0.5rem] bg-gradient-to-tr from-pink-700 to-purple-700 opacity-20 dark:opacity-10 rounded-full' />
           <h1 className='md:text-[5rem] text-[3rem] font-extrabold w-[36rem] text-transparent bg-clip-text bg-gradient-to-tr from-pink-700 to-purple-700'>
             Amnesia Chat
           </h1>
@@ -21,7 +21,7 @@ const Projects: NextPage = () => {
         <Spacer height='2rem' />
 
         <div className='flex m-auto flex-col items-center'>
-          <div className='flex mt-1 p-2 md:w-[38rem] w-[20rem] rounded-lg bg-zinc-100 dark:bg-md-black '>
+          <div className='flex mt-1 p-2 md:w-[38rem] w-[20rem] rounded-lg bg-zinc-200 dark:bg-md-black '>
             <p className='lg:text-xl md:text-lg text-sm font-extralight'>
               <span className='text-transparent bg-clip-text bg-gradient-to-tr from-pink-700 to-purple-700'>
                 Amnesia Chat
