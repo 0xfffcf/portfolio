@@ -37,7 +37,7 @@ const Projects: NextPage = () => {
               . We accept donation thought since the hosting and the domain are
               not free. The new thing amnesia bring is the fact that{' '}
               <span className='text-transparent bg-clip-text bg-gradient-to-tr from-pink-700 to-purple-700'>
-                user doesn't choose their username
+                user doesn&apos;t choose their username
               </span>{' '}
               so there is no chance of doxing of alternative method of that. We
               did this so it is harder to track someone. Also{' '}
