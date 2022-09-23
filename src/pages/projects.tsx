@@ -54,7 +54,9 @@ const Projects: NextPage = () => {
         </div>
       </motion.div>
 
-      <Footer />
+      <div className='absolute bottom-1 w-full'>
+        <Footer />
+      </div>
     </>
   );
 };
