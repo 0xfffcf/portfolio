@@ -12,9 +12,9 @@ const Introduction = () => {
 
         <div className='flex mt-1 p-2 md:w-[38rem] rounded-lg bg-zinc-200 dark:bg-md-black '>
           <p className='lg:text-xl md:text-lg text-sm font-extralight'>
-            Welcome to my secret garden where I share what I've made and learned
-            in my journey as a junior software engineer. I am currently working
-            as a full-stack engineer at a confidential place.
+            Welcome to my secret garden where I share what I&apos;ve made and
+            learned in my journey as a junior software engineer. I am currently
+            working as a full-stack engineer at a confidential place.
           </p>
         </div>
       </div>

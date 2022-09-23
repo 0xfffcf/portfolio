@@ -44,8 +44,8 @@ const Projects: NextPage = () => {
               <span className='text-transparent bg-clip-text bg-gradient-to-tr from-pink-700 to-purple-700'>
                 room id are made via uuidv5 and uuidv4.
               </span>{' '}
-              It is very hard to find someone else's room because of that. More
-              information can be viewed on the website{' '}
+              It is very hard to find someone else&apos;s room because of that.
+              More information can be viewed on the website{' '}
               <span className='text-transparent bg-clip-text bg-gradient-to-tr from-pink-700 to-purple-700'>
                 (coming soon)
               </span>
