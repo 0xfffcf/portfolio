@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { useEffect, useState } from 'react';
 
 import { IoMoon, IoSunny } from 'react-icons/io5';
@@ -33,8 +34,12 @@ const Navbar = ({ themeType }: { themeType: string }) => {
       </div>
 
       <div className='flex justify-end w-full gap-6 lg:mr-0 mr-5'>
-        <a href='/'>Home</a>
-        <a href='/projects'>Projects</a>
+        <Link href='/'>
+          <a>Home</a>
+        </Link>
+        <Link href='/projects'>
+          <a>Projects</a>
+        </Link>
 
         <div
           className='white dark:dark:bg-zinc-900 relative top-[0.3rem] cursor-pointer'
