@@ -39,7 +39,7 @@ const Home: NextPage = () => {
           <Introduction />
         </motion.div>
 
-        <Spacer height='3rem' />
+        <Spacer height='2.75rem' />
 
         <motion.div variants={slideLeft}>
           <Stack />
