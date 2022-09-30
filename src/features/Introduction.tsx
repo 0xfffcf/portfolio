@@ -1,7 +1,7 @@
 const Introduction = () => {
   return (
-    <div className='flex m-auto flex-col items-center'>
-      <div className='flex md:w-[38rem] md:h-40 h-32 w-[20rem] flex-col'>
+    <div className='flex m-auto flex-col items-center overflow-x-hidden'>
+      <div className='flex md:w-[38rem] md:h-40 h-36 w-[20rem] flex-col'>
         <div className='blur-xl ml-2 mt-[2px] md:w-[4.5rem] w-[4.2rem] md:h-6 h-5 absolute bg-gradient-to-tr from-pink-700 to-purple-700 opacity-30 dark:opacity-20 rounded-full' />
         <h1 className='ml-4 w-16 font-medium md:text-lg text-base text-transparent bg-clip-text bg-gradient-to-tr from-pink-700 to-purple-700'>
           0xfffcf
