@@ -15,7 +15,7 @@ const Home: NextPage = () => {
   return (
     <div className='font-Karla'>
       <Head>
-        <title>0xfffcf | Home page</title>
+        <title>0xfffcf</title>
 
         <meta
           name='description'
