@@ -7,7 +7,7 @@ export const fadeIn: Variants = {
 
 export const slideLeft: Variants = {
   initial: { opacity: 0, x: -60 },
-  animate: { opacity: 1, x: 0 },
+  animate: { opacity: 1, x: -0.1 },
 };
 
 export const dropTop: Variants = {
